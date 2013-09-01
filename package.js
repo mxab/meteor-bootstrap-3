@@ -4,6 +4,7 @@ Package.describe({
 
 Package.on_use(function (api) {
   api.use('jquery');
+  api.use('jquery-ui');
 
   var path = Npm.require('path');
   var asset_path = path.join('bootstrap-3');
